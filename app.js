@@ -7,5 +7,5 @@ app.get("/api/products", (req, res) => {
   return res.json({ data: data });
 });
 app.listen(PORT, () => {
-  console.log(data);
+  console.log(`listening on port ${PORT}`);
 });
